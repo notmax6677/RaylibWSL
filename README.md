@@ -1,7 +1,7 @@
 # Create a compiled new Raylib project in C
 This is a quick and small guide to creating a new Raylib project, with everything compiled, to make your life easier.
 
-WARNING: While this is compiled on Linux, it is set up to output your game in EXE Windows executable format. So this is for those WSL users that can develop in their
+NOTE: While this is compiled on Linux, it is set up to output your game in EXE Windows executable format. So this is for those WSL users that can develop in their
 terminals, while actually running and testing the program on Windows.
 
 ## Dependencies:
