@@ -20,11 +20,11 @@ mkdir src
 
 mkdir bin
 
-curl https://raw.githubusercontent.com/W-Axis1/RaylibNew/main/Makefile.win > Makefile.win
+curl https://raw.githubusercontent.com/W-Axis1/RaylibWSL/main/Makefile.win > Makefile.win
 
 cd src
 
-curl https://raw.githubusercontent.com/W-Axis1/RaylibNew/main/Main.c > Main.c
+curl https://raw.githubusercontent.com/W-Axis1/RaylibWSL/main/Main.c > Main.c
 
 cd ..
 
