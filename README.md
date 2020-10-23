@@ -7,7 +7,7 @@ terminals, while actually running and testing the program on Windows.
 ## Dependencies:
 To properly compile and set up the project, you will need `make`, `curl`, and `git`.
 
-## Steps:
+## Instructions:
 I have narrowed it down to simply downloading a shell script and running it.
 To download the script, run `curl https://raw.githubusercontent.com/W-Axis1/RaylibNew/main/NewRaylibProject.sh > NewRaylibProject.sh`.
 Then, the script should appear in your current directory. If it isn't viewed as an executable, run `chmod +x NewRaylibProject.sh`.
