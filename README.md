@@ -12,5 +12,5 @@ I have narrowed it down to simply downloading a shell script and running it.
 To download the script, run `curl https://raw.githubusercontent.com/W-Axis1/RaylibNew/main/NewRaylibProject.sh > NewRaylibProject.sh`.
 Then, the script should appear in your current directory. Now `chmod +x NewRaylibProject.sh`.
 
-Finally, whenever you want to create a new Raylib project, which would be compiled to EXE format, simply run `./NewRaylibProject.sh`, and that would create a directory called "NewRaylibProject" in your current directory. Now simply `cd` into "NewRaylibProject/Game" and run `chmod +x Makefile.win`, You compile your program by running `make -f Makefile.win`, that will output to the "bin" directory. Enjoy :)
+Finally, whenever you want to create a new Raylib project, which would be compiled to EXE format, simply run `./NewRaylibProject.sh`, and that would create a directory called "NewRaylibProject" in your current directory. Now simply `cd` into "NewRaylibProject/Game" and there you go! You compile your program by running `make -f Makefile.win`, that will output to the "bin" directory. Running the EXE file through WSL would be `./game.exe`. Enjoy :)
 
