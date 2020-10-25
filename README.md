@@ -5,7 +5,7 @@ NOTE: While this is compiled on Linux, it is set up to output your game in EXE W
 terminals, while actually running and testing the program on Windows.
 
 ## Dependencies:
-To properly compile and set up the project, you will need `make`, `curl`, and `git`.
+To properly compile and set up the project, you will need `make`, `curl`, `git`, and `mingw-w64-x86-64-dev gcc-mingw-w64-x86-64` (debian/ubuntu package names).
 
 ## Instructions:
 I have narrowed it down to simply downloading a shell script and running it.
