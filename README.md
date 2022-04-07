@@ -9,7 +9,7 @@ To properly compile and set up the project, you will need `make`, `curl`, `git`,
 
 ## Instructions:
 I have narrowed it down to simply downloading a shell script and running it.
-To download the script, run `curl https://raw.githubusercontent.com/notmax6677/RaylibNew/main/NewRaylibProject.sh > NewRaylibProject.sh`.
+To download the script, run `curl https://raw.githubusercontent.com/notmax6677/RaylibWSL/main/NewRaylibProject.sh > NewRaylibProject.sh`.
 Then, the script should appear in your current directory. Now `chmod +x NewRaylibProject.sh`.
 
 Finally, whenever you want to create a new Raylib project, which would be compiled to EXE format, simply run `./NewRaylibProject.sh`, and that would create a directory called "NewRaylibProject" in your current directory. All the game files would be located in "NewRaylibProject/Game" You compile your program by running `make -f Makefile.win`, that will output to the "bin" directory. Running the EXE file through WSL would be `./game.exe`. Enjoy :)
